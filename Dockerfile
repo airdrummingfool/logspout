@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM balenalib/raspberrypi4-64-alpine
 ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
